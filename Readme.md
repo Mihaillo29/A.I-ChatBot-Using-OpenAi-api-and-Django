@@ -17,13 +17,15 @@ valuable learning opportunity for anyone interested in exploring the possibiliti
  
 - [x] Asking for suggestion <details> <summary>Preview image </summary>
  ![ask Suggestion](https://github.com/Mihaillo29/A.I-ChatBot-Using-OpenAi-api-and-Django/assets/117961472/53546267-0962-48e3-aae8-b9888ac838f2)
- sol:
- 
- </details>
+ sol:![suggested](https://github.com/Mihaillo29/A.I-ChatBot-Using-OpenAi-api-and-Django/assets/117961472/2de59dd6-cd28-44b7-85cf-f049b0933655)</details>
 
-- [x] Asking to fix code <details> <summary>Preview image </summary>  </details>
+- [x] Asking to fix code <details> <summary>Preview image </summary>  
+![Fix code](https://github.com/Mihaillo29/A.I-ChatBot-Using-OpenAi-api-and-Django/assets/117961472/607a197a-7139-439c-924b-271b27092f36)
+fixed:
+ ![fixed](https://github.com/Mihaillo29/A.I-ChatBot-Using-OpenAi-api-and-Django/assets/117961472/fd2ec74e-f87e-4edd-83a6-48f48363d589)</details>
 
-- [x] Menu <details> <summary>Preview image </summary>  </details>
+- [x] Menu <details> <summary>Preview image </summary> 
+ ![Menu](https://github.com/Mihaillo29/A.I-ChatBot-Using-OpenAi-api-and-Django/assets/117961472/b0f6ed3b-62d6-478f-8ad1-1759d1955c09)</details>
 
 </details>
 
