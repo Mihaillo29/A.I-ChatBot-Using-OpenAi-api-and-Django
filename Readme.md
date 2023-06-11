@@ -15,7 +15,11 @@ valuable learning opportunity for anyone interested in exploring the possibiliti
 
 - [x] Login <details> <summary>Preview image </summary> ![Login](https://github.com/Mihaillo29/A.I-ChatBot-Using-OpenAi-api-and-Django/assets/117961472/4e173cad-74f8-42bf-8fb1-c9ef8eec626e)</details>
  
-- [x] Asking for suggestion <details> <summary>Preview image </summary> </details>
+- [x] Asking for suggestion <details> <summary>Preview image </summary>
+ ![ask Suggestion](https://github.com/Mihaillo29/A.I-ChatBot-Using-OpenAi-api-and-Django/assets/117961472/53546267-0962-48e3-aae8-b9888ac838f2)
+ sol:
+ 
+ </details>
 
 - [x] Asking to fix code <details> <summary>Preview image </summary>  </details>
 
