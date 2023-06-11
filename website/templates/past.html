@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+<br>
+{% if code %}
+	{% for thing in code %}
+
+<h5> &emsp;Q. {{ thing.question }}&emsp;<a href="{% url 'delete_past' thing.id %}"><i class='bx bx-trash' style="color: #ffff;"></i></a></h5>
+
+<pre>
+<code class='line-numbers language-{{ thing.language }}'>
+{{ thing.code_answer }}
+
+</code>
+</pre>
+
+<br/>
+
+
+		
+	{% endfor %}
+
+{% endif %}
+
+
+
+
+{% endblock %}

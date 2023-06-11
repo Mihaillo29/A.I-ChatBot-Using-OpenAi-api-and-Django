@@ -1,0 +1,71 @@
+<div class="sidebar close">
+    <div class="logo-details">
+        <i class='bx bx-code-alt'></i>
+        <span class="logo_name">Menu</span>
+    </div>
+    <ul class="nav-links">
+        <li>
+            <a href="{% url 'home' %}">
+                <i class='bx bx-home'></i>
+                <span class="link_name">Home</span>
+            </a>
+            <ul class="sub-menu blank">
+                <li><a class="link_name" href="#">Home</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="{% url 'suggest' %}">
+                <i class='bx bx-bulb'></i>
+                <span class="link_name">Suggest</span>
+            </a>
+            <ul class="sub-menu blank">
+                <li><a class="link_name" href="#">Suggest</a></li>
+            </ul>
+        </li>
+        {% if user.is_authenticated %}
+        <li>
+            <a href="{% url 'past' %}">
+                <i class='bx bx-bar-chart'></i>
+                <span class="link_name">History</span>
+            </a>
+            <ul class="sub-menu blank">
+                <li><a class="link_name" href="#">History</a></li>
+            </ul>
+        </li>
+        
+        <li>
+            <a href="{% url 'logout' %}">
+                <i class='bx bx-log-out'></i>
+                <span class="link_name">LogOut</span>
+            </a>
+            <ul class="sub-menu blank">
+                <li><a class="link_name" href="#">LogOut</a></li>
+            </ul>
+        </li>
+        {% else %}
+        <li>
+            <a href="{% url 'register' %}">
+                <i class='bx bxs-user-account'></i>
+                <span class="link_name">Register</span>
+            </a>
+            <ul class="sub-menu blank">
+                <li><a class="link_name" href="#">Register</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="{% url 'home' %}">
+                <i class='bx bx-log-in'></i>
+                <span class="link_name">LogIn</span>
+            </a>
+            <ul class="sub-menu blank">
+                <li><a class="link_name" href="#">LogIn</a></li>
+            </ul>
+        </li>
+        {% endif %}
+    </ul>
+</div>
+
+
+

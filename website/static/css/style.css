@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Open+Sans:wght@700&family=Orbitron&family=Poppins:wght@300&family=Rubik:wght@300&family=Sacramento&family=Unbounded:wght@600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tinos', serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #1c1c1e;
+  }
+
+
+h5,h1,li{
+  color: #fff;
+  font-family: 'Poppins';
+}
+
+.home-section {
+  position: relative;
+  background: #1c1c1e;
+  height: 100vh;
+  left: 260px;
+  width: calc(100% - 260px);
+  transition: all 0.5s ease;
+}
+.sidebar.close ~ .home-section {
+  left: 78px;
+  width: calc(100% - 78px);
+}
+.home-section .home-content {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.home-section .home-content .bx-menu,
+.home-section .home-content .text {
+  color: #ffffff;
+  font-size: 35px;
+}
+.home-section .home-content .bx-menu {
+  margin: 0 15px;
+  cursor: pointer;
+}
+.home-section .home-content .text {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.input-group-textarea {
+  position: relative;
+  width: 100%;
+}
+
+#myTextarea{
+  background-color:#252527;
+  color:#fff;
+}
+
+.input-group-textarea textarea {
+  
+  width: 100%;
+  height: 55px; 
+  min-height: 50px; 
+  max-height: 200px; 
+  border-radius: 5px;
+  border-color: #292c2f;
+  overflow-y: auto; /* Add a scrollbar when content exceeds the maximum height */
+  
+}
+
+.input-group-textarea textarea::placeholder {
+  color: rgba(255, 255, 255, 0.349); /* Set the placeholder color to yellow */
+}
+
+.input-group-textarea .icon-wrapper {
+  position: absolute;
+  top: 50%;
+  right: 80px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.selectform{
+  margin:15% 50px 0px 50px;
+}
+
+.form-select{
+  background-color:#252527;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.555);
+  border-color: #292c2f;
+}
+
+.instruction {
+  color: #fff;
+  font-family: 'Poppins';
+  color: rgba(255, 255, 255, 0.349);
+  margin-left: 35%;
+
+}
+
+@media (max-width: 420px) {
+  .sidebar.close .nav-links li .sub-menu {
+    display: none;
+  }
+  .instruction{
+    margin-left: 0px;
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  h5{
+    font-size: 1rem;
+  }
+  .instruction{
+    margin-left: 5%;
+    font-size: 1rem;
+  }
+}
